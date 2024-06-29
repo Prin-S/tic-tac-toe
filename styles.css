@@ -24,3 +24,7 @@
     flex: 1 1 33%;
     background: peachpuff;
 }
+
+.label {
+    margin-bottom: 5px;
+}
