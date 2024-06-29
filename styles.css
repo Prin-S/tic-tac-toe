@@ -1,0 +1,26 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 992px) {
+    .flex-container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .flex-container {
+        width: 50%;
+    }
+}
+
+.flex-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 0px 0px 1px #fff;
+    height: 50px;
+    flex: 1 1 33%;
+    background: peachpuff;
+}
